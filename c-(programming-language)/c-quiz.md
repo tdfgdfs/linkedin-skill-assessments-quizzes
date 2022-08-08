@@ -2,7 +2,7 @@
 
 #### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
-- [x] :
+- [ ] :
 
 ```c
 while(1)
@@ -64,7 +64,7 @@ main()
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```
 A is greater then B
@@ -90,7 +90,7 @@ B is greater then A
 
 #### Q3. What is the name for calling a function inside the same function?
 
-- [x] recursion
+- [ ] recursion
 - [ ] subfunction
 - [ ] inner call
 - [ ] infinite loop
@@ -104,7 +104,7 @@ main(){
 }
 ```
 
-- [x] character arithmetic
+- [ ] character arithmetic
 - [ ] undefined assignment
 - [ ] type conversion
 - [ ] invalid declaration
@@ -119,7 +119,7 @@ struct s {
 };
 ```
 
-- [x] a node
+- [ ] a node
 - [ ] a linked list
 - [ ] a stack
 - [ ] a binary tree
@@ -129,7 +129,7 @@ struct s {
 - [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
 - [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
 - [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
-- [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
+- [ ] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q7. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
@@ -160,7 +160,7 @@ while (i>0){
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```c
 int i;
@@ -172,7 +172,7 @@ for (i= 10; i>0; i--){
 #### Q8. What is not one of the reserved words in standard C?
 
 - [ ] volatile
-- [x] typeof
+- [ ] typeof
 - [ ] register
 - [ ] typedef
 
@@ -191,7 +191,7 @@ int main(){
 }
 ```
 
-- [x] 1
+- [ ] 1
 - [ ] 3
 - [ ] 2
 - [ ] 0
@@ -208,7 +208,7 @@ union Cars {
 
 - [ ] 32
 - [ ] 54
-- [x] 30
+- [ ] 30
 - [ ] 52
 
 #### Q11. In this code sample, what is not a problem for C compiler?
@@ -220,7 +220,7 @@ main(){
 }
 ```
 
-- [x] The value of PI needs to be set to 3.141593, not 3.14
+- [ ] The value of PI needs to be set to 3.141593, not 3.14
 - [ ] The declaration of PI needs to say const, not constant.
 - [ ] The data type of PI needs to be float not int.
 - [ ] The printf statement needs to use PI, not pi.
@@ -229,7 +229,7 @@ main(){
 
 - [ ] main()
 - [ ] int main() {return 0;}
-- [x] main() { }
+- [ ] main() { }
 - [ ] main() { ; }
 
 [Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
@@ -238,12 +238,12 @@ main(){
 
 - [ ] data type of parameters
 - [ ] return type of function
-- [x] parameter names
+- [ ] parameter names
 - [ ] number of parameters
 
 #### Q14. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
-- [x] stdout
+- [ ] stdout
 - [ ] stdio.h
 - [ ] default.h
 - [ ] string.h
@@ -252,7 +252,7 @@ main(){
 
 - [ ] BSS Segment
 - [ ] stack
-- [x] heap
+- [ ] heap
 - [ ] data segment
 
 [Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)
@@ -262,7 +262,7 @@ main(){
 - [ ] dalloc()
 - [ ] dealloc()
 - [ ] release()
-- [x] free()
+- [ ] free()
 
 [Reference](https://www.tutorialspoint.com/c_standard_library/c_function_free.htm)
 
@@ -270,19 +270,19 @@ main(){
 
 - [ ] keywords
 - [ ] identifiers
-- [x] tokens
+- [ ] tokens
 - [ ] functions
 
 #### Q18. When is memory for a variable allocated?
 
 - [ ] during the assigment of the variable
 - [ ] during the initialization of the variable
-- [x] during the declaration of the variable
+- [ ] during the declaration of the variable
 - [ ] during the definition of the variable
 
 #### Q19. C uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
 
-- [x] by using pointers
+- [ ] by using pointers
 - [ ] by declaring functions separately from defining them
 - [ ] by using recursive functions
 - [ ] by using global variables
@@ -291,7 +291,7 @@ main(){
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
-- [x] Data types; Memory space
+- [ ] Data types; Memory space
 - [ ] Arrays; Header file
 
 #### Q21. What is the output of this program?
@@ -306,13 +306,13 @@ main() {
 
 - [ ] 32
 - [ ] Runtime error
-- [x] -32
+- [ ] -32
 - [ ] 0
 
 #### Q22. What is the difference between scanf() and sscanf() functions?
 
 - [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.
-- [x] The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string.
+- [ ] The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string.
 - [ ] The scanf() function reads string data from the keyboard; The sscanf() function reads string data from a string.
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
 
@@ -323,14 +323,14 @@ char *string[20] = { "one", "two", "three"};
 ```
 
 - [ ] `printf("%c", string[1][2]);`
-- [x] `printf("%s", string[1][2]);`
+- [ ] `printf("%s", string[1][2]);`
 - [ ] `printf("%s", string[1]);`
 - [ ] `printf(string[1]);`
 
 #### Q24. What is the expression player->name equivalent to?
 
 - [ ] `player.name`
-- [x] `(*player).name`
+- [ ] `(*player).name`
 - [ ] `*player.name`
 - [ ] `player.*name`
 
@@ -344,7 +344,7 @@ main() {
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```c
 main() {
@@ -381,7 +381,7 @@ int i;
 - [ ] 2
 - [ ] 2.000000
 - [ ] a runtime error
-- [x] a compiler error
+- [ ] a compiler error
 
 #### Q27. What does this program create?
 
@@ -394,34 +394,34 @@ int main() {
 ```
 
 - [ ] a runtime error
-- [x] a NULL pointer
+- [ ] a NULL pointer
 - [ ] a compile error
 - [ ] a void pointer
 
 #### Q28. What is an alternative way to write the expression (\*x).y?
 
 - [ ] There is no equivalent.
-- [x] x->y
+- [ ] x->y
 - [ ] \*x->y
 - [ ] y->x
 
 #### Q29. Compile time errors are static errors that can be found where in the code?
 
-- [x] in declarations and definitions
+- [ ] in declarations and definitions
 - [ ] in functions and expressions
 - [ ] in syntax and semantics
 - [ ] in objects and statements
 
 #### Q30. File input and output (I/O) in C is heavily based on the way it is done `___`?
 
-- [x] in Unix
+- [ ] in Unix
 - [ ] in C++
 - [ ] in C#
 - [ ] in DOS
 
 #### Q31. What does the strcmp(str1, str2); function return?
 
-- [x] 0 if str1 and str2 are the same, a negative number if str1 is less than str2, a positive number if str1 is greater than str2
+- [ ] 0 if str1 and str2 are the same, a negative number if str1 is less than str2, a positive number if str1 is greater than str2
 - [ ] true (1) if str1 and str2 are the same, false (0) if str1 and str2 are not the same
 - [ ] true (1) if str1 and str2 are the same, NULL if str1 and str2 are not the same
 - [ ] 0 if str1 and str2 are the same, a negative number if str2 is less than str1, a positive number if str2 is greater than str1
@@ -436,7 +436,7 @@ printf("%d", f1(5));
 }
 ```
 
-- [x] 100
+- [ ] 100
 - [ ] 200
 - [ ] 5
 - [ ] 50
@@ -444,7 +444,7 @@ printf("%d", f1(5));
 #### Q33. Which is _not_ a correct way to declare a string variable?
 
 - [ ] `char *string = "Hello World";`
-- [x] `char string = "Hello World";`
+- [ ] `char string = "Hello World";`
 - [ ] `char string[20] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};`
 - [ ] `char string[] = "Hello World";`
 
@@ -461,7 +461,7 @@ printf("%d", f1(5));
 #endif /* MYLIB_H */
 ```
 
-- [x] :
+- [ ] :
 
 ```c
 #ifndef MYLIB_H
@@ -506,7 +506,7 @@ main(){
 ```
 
 - [ ] 100
-- [x] 3
+- [ ] 3
 - [ ] 5
 - [ ] 50
 
@@ -515,18 +515,18 @@ main(){
 - [ ] syntax-driven components
 - [ ] native interfaces
 - [ ] system objects
-- [x] function calls
+- [ ] function calls
 
 #### Q37. Directives are translated by the?
 
-- [x] Pre-processor
+- [ ] Pre-processor
 - [ ] Compiler
 - [ ] Linker
 - [ ] Editor
 
 #### Q38. The main loop structures in C programming are the for loop, the while loop, and which other loop?
 
-- [x] do...while
+- [ ] do...while
 - [ ] for...in
 - [ ] repeat...until
 - [ ] do...until
@@ -535,12 +535,12 @@ main(){
 
 - [ ] global
 - [ ] static
-- [x] library
+- [ ] library
 - [ ] system
 
 #### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defiened?
 
-- [x] :
+- [ ] :
 
 ```c
 struct a {
@@ -575,7 +575,7 @@ struct a {
 #### Q41. A Stack data structure allows all data operations at one end only, making it what kind of an implementation?
 
 - [ ] FIFO
-- [x] LIFO
+- [ ] LIFO
 - [ ] LILO
 - [ ] LOLI
 
@@ -593,25 +593,25 @@ main(){
 - [ ] K
 - [ ] M
 - [ ] H
-- [x] G
+- [ ] G
 
 #### Q43. Describe the relationship between lvalue and rvalue.
 
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.
 - [ ] An lvalue and an rvalue may appear on either left-hand or right-hand side of an assignment.
-- [x] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
+- [ ] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
 
 #### Q44. Which operator is used to access the address of a variable?
 
 - [ ] `%`
 - [ ] `**`
 - [ ] `*`
-- [x] `&`
+- [ ] `&`
 
 #### Q45. Which add function properly returns the updated value of result?
 
-- [x] :
+- [ ] :
 
 ```c
 void add (int a, int b, int *result)
@@ -727,7 +727,7 @@ int main()
 }
 ```
 
-- [x] :
+- [ ] :
 
 ```c
 void fibonacci(int a, int b)
@@ -771,7 +771,7 @@ int main()
 
 #### Q47. Which is _not_ a storage class specifier?
 
-- [x] `intern`
+- [ ] `intern`
 - [ ] `extern`
 - [ ] `register`
 - [ ] `static`
@@ -782,7 +782,7 @@ int main()
 
 - [ ] `for(i=1; i<=1; i++);`
 - [ ] `for(i=1; i=10; i++);`
-- [x] `for(i=1; i==10; i++);`
+- [ ] `for(i=1; i==10; i++);`
 - [ ] `for(i=10; i>=1; i--);`
 
 #### Q49. What is the value of variable c at the end of this program?
@@ -797,26 +797,26 @@ int main()
 
 - [ ] 50
 - [ ] 5
-- [x] 0
+- [ ] 0
 - [ ] 500
 
 #### Q50. What is _not_ one of the basic data types in C
 
 - [ ] long double
 - [ ] unsigned char
-- [x] array
+- [ ] array
 - [ ] float
 
 #### Q51. What is the member access operator for a structure?
 
 - [ ] ,
 - [ ] []
-- [x] .
+- [ ] .
 - [ ] :
 
 #### Q52. What standard data type provides the smallest storage size and can be used in computations?
 
-- [x] char
+- [ ] char
 - [ ] float
 - [ ] int
 - [ ] short
@@ -826,7 +826,7 @@ int main()
 - [ ] It returns TRUE for lowercase letters of the alphabet.
 - [ ] It ensures that text output uses only ASCII values (0 through 127).
 - [ ] It returns FALSE for lowercase letters of the alphabet.
-- [x] It converts an uppercase letter of the alphabet to lowercase.
+- [ ] It converts an uppercase letter of the alphabet to lowercase.
 
 #### Q54. Void pointer _vptr_ is assigned the address of float variable _g_. What is a valid way to dereference _vptr_ to assign its pointed value to a float variable named _f_ later in the program?
 
@@ -836,21 +836,21 @@ void *vptr=&g;
 ```
 
 - [ ] `f=(float *)vptr;`
-- [x] `f=*(float *)vptr;`
+- [ ] `f=*(float *)vptr;`
 - [ ] `f=*(float)vptr;`
 - [ ] `f=(float)*vptr;`
 
 #### Q55. The dynamic memory allocation functions are defined in which system header file ?
 
 - [ ] stdio.h
-- [x] stdlib.h
+- [ ] stdlib.h
 - [ ] limits.h
 - [ ] stddef.h
 
 #### Q56. A function is a set of **\_**.
 
 - [ ] declarations
-- [x] statements
+- [ ] statements
 - [ ] variables
 - [ ] objects
 
@@ -859,7 +859,7 @@ void *vptr=&g;
 - [ ] Static functions must be declared in advance of being defined.
 - [ ] Static functions must be declared is a separate header file.
 - [ ] Static functions always return the same value.
-- [x] Static functions can be accessed only in the file where they are declared.
+- [ ] Static functions can be accessed only in the file where they are declared.
 
 #### Q58. Which code example creates the string "Hello Mars" in storage buffer `hello`.
 
@@ -871,7 +871,7 @@ void *vptr=&g;
     strcpy(hello, "Mars");
 ```
 
-- [x] :
+- [ ] :
 
 ```c
     char hello[25];
@@ -902,7 +902,7 @@ void *vptr=&g;
 #### Q59. If you use the fopen() function with the "a" mode, what happens if the named file doesn't exist?
 
 - [ ] The file is created and opened for reading.
-- [x] The file is created and opened for writing.
+- [ ] The file is created and opened for writing.
 - [ ] The fopen() function returns a NULL indicating that the operation has failed.
 - [ ] The file is created and opened for both writing and reading
 
@@ -917,4 +917,4 @@ int fl(int a, int b) { return(a>b?a:b); }
 - [ ] compiler error
 - [ ] the smaller value of the two passed parameters
 - [ ] runtime error
-- [x] the greater value of the two passed parameters
+- [ ] the greater value of the two passed parameters
